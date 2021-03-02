@@ -9,9 +9,14 @@
 // Section-1 Styling
 .section-1 {
     margin: 120px 45px;
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
     background-color: #fff;
     box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.08);
+    max-height: 75%;
+}
+
+.section-1 form {
+    padding-bottom: 0;
 }
 
 form label {
@@ -23,7 +28,7 @@ form label {
 .section-1 textarea {
     border: 1px solid rgba(21, 11, 40, 0.7);
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 13px;
     color: #ccc;
 }
 
@@ -38,7 +43,7 @@ form label {
 
 // Section-2 Styling
 .section-2 {
-    margin: 130px 20px;
+    margin: 75px 20px;
     padding: 30px;
     line-height: 1.4;
 }
@@ -46,7 +51,7 @@ form label {
 .title h4 {
     font-family: var(--font-family);
     color: #333333;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 48px;
     margin: 40px 0;
 }
@@ -59,7 +64,7 @@ form label {
 .body h4 {
     font-family: var(--font-family);
     color: #333333;
-    font-size: 30px;
+    font-size: 25px;
     padding: 30px 0;
 }
 
@@ -75,6 +80,6 @@ form label {
 }
 
 .body-grid .box h3 {
-    font-size: 20px;
+    font-size: 13px;
     font-weight: bold;
 }

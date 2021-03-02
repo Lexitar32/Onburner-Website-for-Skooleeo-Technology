@@ -1,0 +1,72 @@
+// LOGIN FORM STYLING
+.login-container {
+    margin: 90px;
+}
+
+.login-container .login-header {
+    text-align: center;
+}
+
+.login-header h2 {
+    font-family: 'Roboto-Condensed', sans-serif;
+    color: #333333;
+    font-size: 27px;
+}
+
+.login-header p {
+    font-size: 12px;
+}
+
+.login-container form {
+    margin: auto;
+    padding: 10px;
+    max-width: 50%;
+}
+
+.login-container form label {
+    font-size: 12px;
+}
+
+.login-container form input {
+    border: 1px solid rgba(21, 11, 40, 0.7);
+    border-radius: 5px;
+}
+
+.login-container form button {
+    width: 100%;
+    text-align: center;
+    background-color: var(--btn-color);
+    border-radius: 50px;
+    color: var(--btn-text);
+    font-family: var(--font-family);
+}
+
+form .forgot-password {
+    text-align: center;
+    padding-top: 8px;
+}
+
+.forgot-password a {
+    color: var(--btn-color);
+    font-size: 13px;
+}
+
+form .social-login {
+    font-family: var(--font-family);
+    padding-top: 17px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.social-login i {
+    font-size: 17px;
+    padding: 3px;
+}
+
+.copyright p {
+    font-family: var(--font-family);
+    text-align: center;
+    padding-top: 70px;
+    font-size: 12px;
+    color: #01001D 60%;
+}

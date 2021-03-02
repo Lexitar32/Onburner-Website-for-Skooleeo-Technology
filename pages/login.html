@@ -16,7 +16,7 @@
 
     <title>Oneburner | Login</title>
 </head>
-<body>
+<body style="overflow-y: hidden;">
 
     <!-- Navbar of the website -->
     <header>
@@ -90,6 +90,37 @@
     
         </nav>
       </header>
+
+      <main class="container">
+        <div class="login-container">
+          <div class="login-header">
+            <h2>Sign In</h2>
+            <p>Welcome Back!</p>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email/Username</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p class="forgot-password"><a href="#">Forgot Password?</a></p>
+            <div class="social-login">
+              <span>-Or sign in with: &nbsp;
+                <span><a href="#"><i class="fab fa-facebook"></i></a></span>
+                <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
+                <span><a href="#"><i class="fab fa-google"></i></a></span>
+              </span>
+            </div>
+          </form>
+          <div class="copyright">
+            <p>&copy; 2020 Oneburner.com. All Rights Reserved.</p> 
+          </div>
+        </div>
+      </main>
     
 
 
