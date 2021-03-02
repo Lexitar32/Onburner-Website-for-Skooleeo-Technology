@@ -1,0 +1,80 @@
+// Contact Sales Styling
+#main {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    margin: 20px 0px;
+    background-color: #f3f3f3;
+}
+
+// Section-1 Styling
+.section-1 {
+    margin: 120px 45px;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.08);
+}
+
+form label {
+    font-family: var(--font-family);
+}
+
+.section-1 input, 
+.section-1 select, 
+.section-1 textarea {
+    border: 1px solid rgba(21, 11, 40, 0.7);
+    border-radius: 5px;
+    font-size: 15px;
+    color: #ccc;
+}
+
+.section-1 form .btn {
+    font-family: var(--font-family);
+    background-color: var(--btn-color);
+    color: var(--btn-text);
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+// Section-2 Styling
+.section-2 {
+    margin: 130px 20px;
+    padding: 30px;
+    line-height: 1.4;
+}
+
+.title h4 {
+    font-family: var(--font-family);
+    color: #333333;
+    font-size: 30px;
+    line-height: 48px;
+    margin: 40px 0;
+}
+
+.title p {
+    font-family: var(--font-family);
+    color: #454545, 80%;
+}
+
+.body h4 {
+    font-family: var(--font-family);
+    color: #333333;
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+.section-2 .body-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.body-grid .box {
+    font-family: var(--font-family);
+    padding: 10px;
+    line-height: 1.6;
+}
+
+.body-grid .box h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
