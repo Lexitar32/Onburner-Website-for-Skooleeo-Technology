@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600;1,700&family=Lato:ital@1&family=Pacifico&family=Roboto+Condensed&family=Ubuntu:ital,wght@1,700&display=swap");
+:root {
+  --text-color: #454545;
+  --btn-color:  #462686;
+  --btn-color-hover:  #835ece;
+  --btn-text: #ffffff;
+  --font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* NAVBAR STYLING */
+.navbar .container {
+  margin: auto;
+  max-width: 95%;
+}
+
+.navbar-brand img {
+  max-width: 140px;
+  max-height: 80px;
+  margin-right: 50px;
+}
+
+.navbar-toggler {
+  background-color: var(--btn-color);
+  color: var(--btn-text);
+}
+
+.nav-item a {
+  font-size: 16px;
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+.nav-item a:hover {
+  color: var(--btn-color);
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+#drop-display {
+  margin: auto;
+  max-width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dropdown-item {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.drop-icon {
+  color: var(--btn-color);
+  margin-right: 8px;
+}
+
+.drop-desc {
+  font-family: var(--font-family);
+  line-height: 1.4;
+  color: #333333;
+}
+
+.drop-desc h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.drop-desc p {
+  font-size: 15px;
+}
+
+.login {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+.login:hover {
+  text-decoration: none;
+  color: var(--btn-color);
+}
+
+.btn {
+  background-color: var(--btn-color);
+  color: var(--btn-text);
+  font-size: 12px;
+  font-family: var(--font-family);
+  padding: 8px 19px;
+  border-radius: 17px;
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+
+.btn:hover {
+  background-color: var(--btn-color-hover);
+  color: var(--btn-text);
+}
+
+/* GLOBAL STYLING FOR ALL PAGES*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
