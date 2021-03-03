@@ -1,0 +1,143 @@
+// Landing Section
+#landing-section {
+    margin: 120px;
+    text-align: center;
+
+    .vector {
+        background: url('../assets/images/Vector\ 1.svg') no-repeat center center/cover;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 96% 4%;
+    }
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--btn-color);
+        font-weight: bolder;
+        font-size: 40px;
+        padding: 10px 0;
+    }
+
+    img {
+        max-width: 150px;
+    }
+
+    p {
+        padding: 15px 0;
+    }
+
+    a {
+        background-color: var(--btn-color);
+        color: var(--btn-text);
+        font-size: 12px;
+        font-family: var(--font-family);
+        padding: 12px 22px;
+        border-radius: 17px;
+        border: none;
+    }
+
+    .grid-1 {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-gap: 700px;
+
+    a {
+        display: none;
+    }
+}
+}
+
+
+// Benefit Section Styling
+#benefit-section {
+    margin-top: 30px;
+    background-color: #7837F8;
+    padding-top: 10px;
+    min-height: 350px;
+    color: var(--btn-text);
+    font-family: 'Montserrat', sans-serif;
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .benefit-section-grid {
+        display: grid;
+        grid-template-columns: 6fr 3fr;
+
+        .benefit-a p {
+            padding-top: 15px;
+        }
+
+        .benefit-b ul li {
+            list-style-type: none;
+            padding-top: 7px;
+        }
+    }
+}
+
+// MAP SECTION STYLING
+#map-section {
+    background-color: rgba(204, 204, 204, 0.1);
+    text-align: center;
+    padding: 50px;
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    p {
+        padding: 20px;
+    }
+
+    img {
+        max-width: 400px;
+        max-height: 500px;
+    }
+}
+
+// Testimony Section
+#testimony-section {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 80px;
+    text-align: center;
+
+    p {
+        line-height: 1.5;
+    }
+
+    img {
+        max-width: 200px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+}
+
+// Contact Sales
+#contact-sales {
+    background-color: rgba(204, 204, 204, 0.1);
+    text-align: center;
+    padding: 120px;
+
+    h2 {
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    a {
+        background-color: var(--btn-color);
+        color: var(--btn-text);
+        font-size: 12px;
+        font-family: var(--font-family);
+        padding: 12px 22px;
+        border-radius: 17px;
+        transition: all 300ms ease-in;
+        margin-top: 25px;
+    }
+}
