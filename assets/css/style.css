@@ -680,7 +680,7 @@ a:hover {
   display: grid;
   -ms-grid-columns: (1fr)[11];
       grid-template-columns: repeat(11, 1fr);
-  margin: 60px;
+  margin-top: 60px;
 }
 
 #special-section .box-grid-1 img {
@@ -691,7 +691,7 @@ a:hover {
 #special-section .box-grid-2 {
   display: -ms-grid;
   display: grid;
-  margin: 60px;
+  margin-top: 60px;
   -ms-grid-columns: (1fr)[11];
       grid-template-columns: repeat(11, 1fr);
 }

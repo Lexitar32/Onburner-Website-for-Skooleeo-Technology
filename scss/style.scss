@@ -159,7 +159,7 @@
     .box-grid-1 {
       display: grid;
       grid-template-columns: repeat(11, 1fr);
-      margin: 60px;
+      margin-top: 60px;
 
       img {
         max-width: 50px;
@@ -169,7 +169,7 @@
 
     .box-grid-2 {
       display: grid;
-      margin: 60px;
+      margin-top: 60px;
       grid-template-columns: repeat(11, 1fr);
 
       img {
