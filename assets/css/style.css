@@ -535,6 +535,11 @@ a {
   color: black;
 }
 
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 #first-section {
   margin: 60px 30px;
 }
