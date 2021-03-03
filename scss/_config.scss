@@ -93,7 +93,7 @@
     color: var(--btn-color);
   }
   
-  .form-inline .btn {
+  .form-inline .free {
     background-color: var(--btn-color);
     color: var(--btn-text);
     font-size: 12px;
@@ -103,7 +103,7 @@
     transition: all 300ms ease-in;
   }
   
-  .btn:hover {
+  .free:hover {
     background-color: var(--btn-color-hover);
     color: var(--btn-text);
   }
