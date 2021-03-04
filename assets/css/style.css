@@ -124,49 +124,49 @@ footer {
   padding: 20px 15px;
 }
 
-.section-a {
+footer .section-a {
   margin: 15px 45px;
 }
 
-.section-a img {
+footer .section-a img {
   max-width: 160px;
   max-height: 80px;
 }
 
-.section-a #p1 {
+footer .section-a #p1 {
   font-family: var(--font-family);
   padding-top: 15px;
   color: #454545;
   font-size: 18px;
 }
 
-.section-a #p2 {
+footer .section-a #p2 {
   font-family: var(--font-family);
   font-size: 12px;
   padding-top: 5px;
   color: #01001D;
 }
 
-.section-a-social {
+footer .section-a-social {
   font-family: var(--font-family);
   margin: 20px 0;
   padding-top: 30px;
 }
 
-.section-a-social #p3 {
+footer .section-a-social #p3 {
   font-size: 12px;
 }
 
-.section-a-social #p4 {
+footer .section-a-social #p4 {
   font-size: 20px;
 }
 
-.section-a-social .social-links i {
+footer .section-a-social .social-links i {
   font-size: 18px;
   padding: 0 4px;
 }
 
-.section-b select {
+footer .section-b select {
   width: 30%;
   margin-left: auto;
   margin-right: 10px;
@@ -178,7 +178,7 @@ footer {
   border-radius: 5px;
 }
 
-.section-b .footer-list-grid {
+footer .section-b .footer-list-grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 2fr 3fr 2fr;
@@ -186,28 +186,28 @@ footer {
   margin-top: 60px;
 }
 
-.footer-list h3 {
+footer .footer-list h3 {
   font-family: var(--font-family);
   font-size: 15px;
   font-weight: bold;
 }
 
-.footer-list ul li {
+footer .footer-list ul li {
   list-style: none;
   font-family: var(--font-family);
   font-size: 13px;
   padding: 5px 2px;
 }
 
-.footer-list ul li a:hover {
+footer .footer-list ul li a:hover {
   color: #333333;
 }
 
-.copyright-section hr {
+footer .copyright-section hr {
   width: 100%;
 }
 
-.copyright-section p {
+footer .copyright-section p {
   font-family: var(--font-family);
   font-size: 12px;
   color: #01001D 60%;
