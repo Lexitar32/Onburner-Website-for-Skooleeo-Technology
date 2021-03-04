@@ -186,6 +186,10 @@
     font-family: var(--font-family);
     font-size: 13px;
     padding: 5px 2px;
+
+    a:hover {
+      color: #333333;
+    }
   }
 
   .copyright-section hr {
